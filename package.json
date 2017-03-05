@@ -1,11 +1,18 @@
 {
-  "name": "tom",
+  "name": "file-ops",
   "version": "1.0.0",
-  "description": "",
+  "description": "The basic task is to asynchronously read files from a directory, append four pieces of information to each file and then to output the results of the script (number renamed, number of errors if any, etc).",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "author": "Tom Benacin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.5",
+    "bluebird": "^3.4.7",
+    "fs": "0.0.1-security",
+    "promise": "^7.1.1",
+    "promisify-node": "^0.4.0"
+  }
 }

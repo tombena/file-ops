@@ -9,10 +9,7 @@
   "author": "Tom Benacin",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.1.5",
     "bluebird": "^3.4.7",
-    "fs": "0.0.1-security",
-    "promise": "^7.1.1",
-    "promisify-node": "^0.4.0"
+    "fs": "0.0.1-security"
   }
 }

@@ -9,6 +9,7 @@ The basic task is to asynchronously read files from a directory, append four pie
 
 Original files located in `files/original` are moved into `files/moved`, each file is renamed. The new name of the file is `[original file name]_edited_[year-month-day_hour-second]` with its original extension.
 
+```
 // The hour timestamp is in 24 hour notation (14:00 = 2:00pm)
 // Rename Example:
 	my-text-file.txt -> my-text-file_EDITED_2015-05-31_14-22.txt 
